@@ -1,0 +1,33 @@
+h3 {
+  color: hsla(100, 50%, 10%, 20%);
+}
+
+h2 {
+  color: aqua;
+}
+
+p,
+h1,
+h3 {
+  border: 2px solid rgba(0, 200, 100, 50%);
+  line-height: 30px;
+}
+
+#test-id {
+  background-color: #3fb6b288;
+}
+
+.mano-klase {
+  width: 200px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}

@@ -1,0 +1,79 @@
+p:first-child::first-letter {
+  font-size: 2rem;
+}
+
+p:last-child {
+  color: blue;
+}
+
+p:nth-child(3) {
+  background-color: aqua;
+}
+
+p:nth-last-child(2) {
+  text-align: end;
+}
+
+p:only-child {
+  background-color: blanchedalmond;
+}
+
+a:first-of-type {
+  font-size: 1.5rem;
+}
+
+a:last-of-type {
+  text-decoration: none;
+}
+
+a:nth-of-type(2) {
+  cursor: default;
+}
+
+a:nth-last-of-type(2) {
+  text-decoration: none;
+}
+
+h3:only-of-type {
+  color: red;
+}
+
+/* p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+} */
+
+.test::first-line {
+  font-style: italic;
+}
+
+a:first-of-type::before {
+  content: 'pries ';
+}
+
+a:first-of-type {
+  font-size: 2rem;
+}
+
+a:first-of-type::after {
+  content: 'Po';
+  color: brown;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  width: 200px;
+}
+
+button:active {
+  background-color: green;
+}
+
+a:visited {
+  background-color: yellow;
+}
+
+a:link {
+  background-color: blue;
+}

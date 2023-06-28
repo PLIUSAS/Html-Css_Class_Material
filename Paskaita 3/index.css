@@ -1,0 +1,24 @@
+/* Silpniausias selektorius */
+p {
+  font-size: 30px;
+  color: red;
+}
+
+/* klasinis selektorius stipresnis uz tago selektoriu */
+.paragrafas {
+  color: green;
+}
+
+/* id selektorius stipresnis uz klasini */
+/* #paragrafas {
+  color: blue;
+} */
+
+.antra-klase {
+  color: tomato;
+  border: 2px solid black;
+}
+
+body {
+  background-color: blue;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="uzduotis1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/meqbjgan" method="post">
+      <h1>Payment form</h1>
+      <p>Required fields are followed by *</p>
+      <h2>Contact Information</h2>
+      <fieldset>
+        <legend>Title</legend>
+        <input id="title-miss" type="radio" name="title" value="Miss" />
+        <label for="title-miss">Miss</label>
+        <br />
+        <input id="title-mister" type="radio" name="title" value="Mister" />
+        <label for="title-mister">Mister</label>
+      </fieldset>
+      <label for="name">Name *</label>
+      <input id="name" type="text" required name="name" />
+      <br />
+      <label for="email">Email *</label>
+      <input id="email" name="email" type="email" required />
+      <br />
+      <label for="password">Password *</label>
+      <input id="password" name="password" type="password" minlength="5" required />
+      <h2>Payment information</h2>
+      <label for="cardType">Card type</label>
+      <select name="cardType" id="cardType">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+      </select>
+      <br />
+      <label for="cardNumber">Card Number *</label>
+      <input type="number" min="1000000000000000" max="9999999999999999" name="cardNumber" id="cardNumber" required />
+      <br />
+      <label for="expirationDate">Expiration Date * </label>
+      <input type="date" required name="expirationDate" id="expirationDate" />
+      <br />
+      <label class="margin-label" for="expirationDate"><i>formatted as mm/yy</i></label>
+      <br />
+      <button type="submit">Validate the payment</button>
+    </form>
+  </body>
+</html>

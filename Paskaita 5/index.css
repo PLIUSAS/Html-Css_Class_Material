@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
+
+.parent {
+  background-color: aquamarine;
+  padding: 2rem;
+  margin: 50px;
+}
+
+.box-model {
+  font-size: 10px;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  padding: 2em;
+}
+
+.viewport {
+  background-color: beige;
+  height: 150vh;
+  width: 100vw;
+}

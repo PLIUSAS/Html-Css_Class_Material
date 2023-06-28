@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 193, 193);
+}
+
+div {
+  border: 3px solid white;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.box1 {
+  width: 500px;
+  padding: 2rem;
+}
+
+.box1 img {
+  width: 100%;
+}
+
+.background-image {
+  background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+  background-position: center;
+}
+
+.box2 {
+  width: 500px;
+  padding: 1.5rem;
+  /* background-size: contain; */
+}
+
+.box3 {
+  padding: 1em;
+  width: 600px;
+}

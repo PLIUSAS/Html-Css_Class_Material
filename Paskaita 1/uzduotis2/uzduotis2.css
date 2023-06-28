@@ -1,0 +1,34 @@
+header,
+section,
+footer {
+  background-color: rgb(241, 241, 241);
+}
+
+.par-width {
+  width: 50%;
+  display: inline-block;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  display: inline;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.image-size {
+  width: 30%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}

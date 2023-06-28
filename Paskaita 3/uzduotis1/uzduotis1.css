@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(68, 9, 122);
+}
+
+.container {
+  border: 3px dashed orange;
+  width: 500px;
+  color: darkorange;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: rgba(40, 0, 77, 0.5);
+  text-shadow: 3px 3px 2px black;
+}
+
+img {
+  width: 70%;
+  border-bottom: 50px solid green;
+  border-top: 50px solid white;
+  border-left: 50px solid blue;
+  border-right: 50px solid black;
+  border-radius: 70px;
+}
+
+.main-heading {
+  color: yellow;
+}
+
+p {
+  margin-bottom: 100px;
+  text-align: justify;
+}
+
+.large-letter {
+  font-size: 40px;
+}

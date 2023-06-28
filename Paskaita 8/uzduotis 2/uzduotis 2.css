@@ -1,0 +1,27 @@
+body > div {
+  border: 1px solid rgba(200, 200, 200, 0.7);
+  padding: 0.3rem 0.5rem;
+  box-shadow: 3px 3px 6px rgb(175, 175, 175), -3px -3px 6px rgb(175, 175, 175);
+  margin: 2rem;
+}
+
+div > div {
+  background-color: yellow;
+  text-align: center;
+  padding: 1rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+div h1::before,
+div h1::after,
+div h2::before,
+div h2::after {
+  font-family: 'calibri', arial;
+  content: ' XXX ';
+  color: red;
+}

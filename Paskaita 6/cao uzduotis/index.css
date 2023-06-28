@@ -1,0 +1,94 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-left: 250px;
+  padding: 1rem;
+}
+
+header > h4 {
+  display: inline;
+}
+
+header > h4 > span {
+  color: gray;
+  font-weight: 400;
+  padding-left: 0.3rem;
+}
+
+header nav {
+  display: inline;
+  float: right;
+  margin-right: 1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 0.5rem;
+}
+
+header nav a:first-child {
+  color: aqua;
+}
+
+aside {
+  position: absolute;
+  background-color: #24282c;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 1rem;
+  width: 200px;
+}
+
+hr {
+  border-top: 1px solid #111111;
+  border-bottom: 1px solid #353535;
+}
+
+.split {
+  width: 95%;
+  border-color: lightgray;
+}
+
+.grey-text {
+  color: grey;
+}
+
+aside > ul li::marker {
+  color: red;
+}
+
+aside > ul > li:not(:first-child)::marker {
+  color: transparent;
+}
+
+aside > ul li {
+  margin-bottom: 0.6rem;
+}
+
+.transparent-marker::marker {
+  color: transparent;
+}
+
+main {
+  margin-left: 250px;
+}
+
+.genre-text {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+main h6 {
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+main p {
+  margin-bottom: 2rem;
+}
