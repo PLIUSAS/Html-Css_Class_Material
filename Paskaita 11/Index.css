@@ -1,0 +1,56 @@
+.flex-container1 {
+    border: 1px solid black;
+    display: flex;
+    height: 900px;
+}
+.flex-container1 > div {
+    background-color: aqua;
+    flex-basis: 200px;
+    max-height: 200px;
+    border: 1px solid black;
+    align-items: stretch;
+}
+.flex-container1 > div:first-child {
+    flex: 1;
+}
+.flex-container1 > div:nth-child(2) {
+    flex: 1;
+}
+.flex-container1 > div:nth-child(3) {
+    flex: 2;
+}
+.flex-container1 > div:nth-child(4) {
+    flex-shrink: 4;
+}
+.flex-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 900px;
+}
+/* align-content - uždeda ant kiekvieno elemento align-self */
+/* flex-wrap: nowrap - nenumeta į kita eilute. wrap - numeta į kita eilute. (MAŽINANT CHROME LANGA) */
+.flex-container > div {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.flex-container > div:last-child {
+    align-self: flex-end;
+}
+.flex-container > div:nth-child(2) {
+    align-self: flex-start;
+}
+.flex-container > div:nth-child(3) {
+    align-self: baseline;
+    order: 2;
+}
+.flex-container > div:nth-child(1) {
+    align-self: stretch;
+    height: auto;
+    order: 1;
+}
