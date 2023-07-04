@@ -1,0 +1,42 @@
+.Grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+      /* grid-template-columns: 100px 150px 200px; iš kairės į dešine stulpelio ilgis */
+    /* grid-template-rows: 100px 150px 200px; iš viršaus į apačia stulpelio ilgis */
+    grid-auto-rows: 200px;
+    gap: 40px 20px;
+    /* gap: 40px 20px; */
+    /* row-gap: 20px; eilutėje gap nuo kitos eilutės */
+    /* row-gap: 20px;
+    column-gap: 40px; stulpeliu gapas */
+    /* align-items: center;
+    align-items: start; */
+    text-align: center;
+    line-height: 200px; 
+    /* text-align: center;
+    line-height: 200px; centruoja texta į viduri  */
+}
+.item {
+    background-color: aqua;
+    border: 1px solid black;
+}
+.item-1 {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* ties kur prasideda ties kur baigiasi stulpelis */
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+.item-2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.item-3 {
+    grid-column: 2/-1;
+    grid-row: 3/4;
+}
+.item-5 {
+    /* align-self: center;
+    justify-self: center; */
+    /* place-self: end center; */
+}
