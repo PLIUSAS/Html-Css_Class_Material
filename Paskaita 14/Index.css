@@ -1,0 +1,26 @@
+p {
+    color: red;
+    font-size: 30px;
+}
+.test {
+    border: 2px solid red;
+}
+@media screen and (max-width: 1200px) {
+    p {
+        color: green;
+    }
+    .test {
+        border: 10px solid blue;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    p {
+        color: blue;
+    }
+}
+@media screen and (min-width: 500px) {
+    p {
+        background-color: aquamarine;
+    }
+}
