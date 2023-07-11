@@ -1,0 +1,129 @@
+button {
+    margin-left: 850px;
+    margin-bottom: 50px;
+    height: 110px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    border: none;
+    border-radius: 40%;
+    animation: pulse 1s infinite linear;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+div {
+    margin:auto;
+    margin-bottom: 50px;
+}
+.test {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* transition: width 2s,height 3s; */
+    transition: all 3s;
+    /* transition-timing-function: linear; */
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-delay: 2s;
+}
+.test:hover {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+.animation-test {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: changeColor 3s infinite linear;
+    animation-delay: 2s;
+}
+.animation-test:hover {
+    animation: none;
+}
+@keyframes changeColor {
+    0% {
+        background-color: blue;
+    }
+    25% {
+        background-color: red;
+    }
+    66% {
+        background-color: aqua;
+    }
+    100% {
+        background-color: blueviolet;
+    }
+}
+.transform-test {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: spin 5s infinite linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 800px;
+    animation: spin 3s infinite linear;
+}
+.text {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: center;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s linear;
+    transition-delay: 1.5s;
+}
+.text:hover {
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20%;
+}
+.transform-animation {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: blueviolet;
+    animation: roll 2s infinite linear;
+    animation-delay: 2s;
+}
+.transform-animation:hover {
+    animation: none;
+    border-radius: 25%;
+}
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(120deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
