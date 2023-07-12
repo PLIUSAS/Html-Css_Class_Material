@@ -1,0 +1,43 @@
+body {
+    font-size: 30px;
+    height: 200vh;
+}
+.relative {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: aqua;
+    z-index: -1;
+}
+.fixed {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 100px;
+}
+.Sticky {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    position: sticky;
+}
+.positioned-parent {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    position: relative;
+}
+.Absolute {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    right: 100px;
+    position: absolute;
+}
