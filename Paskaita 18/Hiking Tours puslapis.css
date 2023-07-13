@@ -1,0 +1,181 @@
+:root {
+    --blue-violet: #645cff;
+    --blue-violet-darker: #4d47ca;
+    --tour-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --mainTransition: all 0.3s linear;
+}
+.primary-text-color {
+    color: var(--blue-violet);
+}
+main {
+    width: 700px;
+}
+.first-section header {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+.first-section header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+} 
+.first-section header ul li i {
+    color: var(--blue-violet);
+    font-size: 20px;
+}
+.first-section {
+    color: white;
+    background-color: #4d47ca;
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.first-section div {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    padding-top: 250px;
+}
+.first-section button {
+    background-color: #4d47ca;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.secont-section {
+    padding: 50px;
+    padding-top: 0;
+}
+.secont-section header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.secont-section img {
+    width: 600px;
+}
+.secont-section a {
+    text-decoration: none;
+}
+.the-third-sector {
+    width: 700px;
+    height: 700px;
+    padding: 75px;
+    padding-bottom: 0;
+}
+.the-third-sector header{
+    width: 500px;
+    height: 50px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(192, 192, 192, 0.2);
+}
+.service-icon {
+    background: var(--blue-violet);
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.service-center {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.2);
+    width: 550px;
+    height: 600px;
+}
+.service {
+    width: 250px;
+    height: 250px;
+}
+.fourth-section {
+    width: 600px;
+    height: 2650px;
+    padding: 50px;
+}
+.fourth-section header {
+    width: 600px;
+    height: 50px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-section img {
+    width: 600px;
+}
+.tour-card {
+    box-shadow: var(--tour-shadow);
+    transition: var(--mainTransition);
+    margin-bottom: 4rem;
+}
+.tour-data {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #645cff;
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+}
+.tour-img-container {
+    position: relative;
+}
+.tour-footer {
+    padding: 1.2rem 1.5rem;
+}
+.tour-title {
+    text-transform: capitalize;
+}
+.tour-country {
+    color: var(--blue-violet);
+    text-transform: capitalize;
+    align-self: center;
+}
+.tour-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tour-details p {
+    line-height: 0.2;
+    text-transform: capitalize;
+}
+.tool-link {
+    width: 600px;
+    height: 100px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+.five-section {
+    width: 700px;
+    height: 2000px;
+}
+.five-section header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.1);;
+}
+.galerry-photo {
+    background-color: #4d47ca;
+}
+.galerry-photo img {
+    width: 650px;
+    height: 450px;
+}
