@@ -7,45 +7,80 @@
 .primary-text-color {
     color: var(--blue-violet);
 }
-main {
-    width: 768px;
-}
 .first-section header {
+    margin-left: 250px;
+    margin-right: 350px;
     color: black;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 2.5rem;
     align-items: center;
 }
 .first-section header ul {
     list-style: none;
     display: flex;
     gap: 1rem;
+    padding-right: 2.5rem;
 } 
+.first-section header div a {
+    color: black;
+}
+.first-section-tag {
+    font-weight: bold;
+    font-size: 20px;
+    padding:0;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: none;
+    padding-top: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .first-section header ul li i {
     color: var(--blue-violet);
     font-size: 20px;
 }
 .first-section {
     color: white;
-    background-color: #4d47ca;
-    height: 1000px;
+    height: 950px;
+    display: inline-block;
     margin: auto;
     text-align: center;
 }
 .first-section div {
     text-align: center;
     margin: auto;
-    padding: 50px;
-    padding-top: 250px;
+    padding: 40px;
+}
+.first-section-main {
+    background: linear-gradient(rgba(74, 63, 218, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1504280317859-9c6cce36bca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format) center/cover no-repeat;
+    height: 750px;
+    padding: auto;
+    margin-top: 350px;
+}
+.first-section-main h1 {
+    padding-top: 200px;
+    font-size: 4.5em;
+}
+.first-section-main p {
+    padding-left: 600px;
+    padding-right: 575px;
+    font-size: 20px;
 }
 .first-section button {
-    border-radius: 2px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 4px;
     background-color: #4d47ca;
     color: white;
     border: none;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.first-section img {
+    width: 1200px;
+    height: 700px;
 }
 .secont-section {
     padding: 50px;
@@ -161,7 +196,7 @@ a {
 }
 .five-section {
     padding-top: 0;
-    height: 2000px;
+    height: 1400px;
 }
 .five-section header{
     padding-left: 25px;
@@ -226,10 +261,8 @@ h2 {
     outline: none;
 }
 footer {
-    height: 300px;
     background-color: black;
     color: white;
-    margin-top: 350px;
 }
 .footer-icon {
     color: var(--blue-violet-darker);
@@ -259,8 +292,6 @@ footer {
     color: white;
 }
 .footer-details {
-    height: 350px;
+    height: 150px;
     padding: 50px;
-    padding-left: 0;
-    padding-bottom: 0;
 }
