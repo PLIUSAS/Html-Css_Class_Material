@@ -1,0 +1,29 @@
+:root {
+    --purple: #ff00bf;
+}
+header {
+    padding: 20px 150px;
+}
+.header-div {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.header-a {
+    display: flex;
+    text-decoration: none;
+    gap: 2rem;
+}
+.header-a a {
+    text-decoration: none;
+    color: black;
+}
+.header-a a span {
+    color: #ff00bf;
+}
