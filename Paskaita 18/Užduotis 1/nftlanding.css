@@ -27,3 +27,75 @@ header {
 .header-a a span {
     color: #ff00bf;
 }
+.first-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-section-main {
+    text-align: left;
+    padding-left: 100px;
+}
+.first-section .first-section-photo, .first-section-main {
+    height: 700px;
+}
+.first-section-main {
+    margin-top: 50px;
+}
+.first-section-photo img {
+    height: 700px;
+}
+.first-section div p span {
+    padding-left: 20px;
+    color: #ff00bf;
+    font-size: 15px;
+}
+.first-section div h1 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.paragraf {
+    width: 350px;
+}
+.first-section-main button {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  background-image: url(Nuotraukos/Group1.svg);
+}
+.secont-section {
+    text-align: center;
+}
+.secont-section-first-div {
+    width: 1300px;
+    height: 350px;
+    display: inline-block;
+    background: url(Nuotraukos/background.svg) no-repeat;
+    text-align: left;
+    text-align: justify;
+}
+.secont-section-first-div h1 {
+    padding-top: 180px;
+    padding-left: 100px;
+}
+.secont-section-first-div p {
+    padding-left: 100px;
+}
+.secont-section img {
+    width: 1500px;
+}
+.secont-section-first-a-tag a {
+    font-size: 25px;
+    gap: 2rem;
+    text-decoration: none;
+    color: black;
+}
