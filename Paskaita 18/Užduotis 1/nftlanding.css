@@ -67,7 +67,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   background-color: white;
   background-image: url(Nuotraukos/Group1.svg);
@@ -93,9 +93,51 @@ header {
 .secont-section img {
     width: 1500px;
 }
-.secont-section-first-a-tag a {
+.secont-section-first-atag {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 50px;
+}
+.secont-section-first-atag a {
     font-size: 25px;
     gap: 2rem;
     text-decoration: none;
     color: black;
+}
+.secont-section-first-atag img {
+    width: 300px;
+    height: 50px;
+}
+.Third-section {
+    text-align: left;
+}
+.Third-section-header {
+    padding: 2rem 4rem;
+    padding-top: 50px;
+}
+.Third-section-header h1 {
+    font-size: 30px;
+}
+.Third-section-header p span {
+    text-decoration: underline;
+}
+.Third-section-main {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.Third-section-main img {
+    width: 450px;
+    height: 300px;
+}
+.Third-section-main-item {
+    display: flex;
+    width: 450px;
+    height: 450px;
 }
