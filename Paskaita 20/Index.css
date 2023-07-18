@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    margin: auto;
+}
+.pirmas, .antras, .trecias {
+    grid-column: span 2;
+    border: 1px solid red;
+}
+@media screen and (min-width: 768px) {
+    .pirmas, .antras {
+        grid-column: span 6;
+    }
+    .trecias {
+        grid-column: span 12;
+    }
+}
+@media screen and (min-width:992px) {
+    .pirmas {
+        grid-column: span 8;
+    }
+    .antras {
+        grid-column: span 4;
+    }
+    .trecias {
+        grid-column: span 6;
+    }
+    
+}

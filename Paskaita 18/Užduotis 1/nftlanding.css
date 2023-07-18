@@ -141,3 +141,9 @@ header {
     width: 450px;
     height: 450px;
 }
+.Third-section-main table {
+    color: gray;
+}
+.Third-section-main table span {
+    color: orange;
+}
