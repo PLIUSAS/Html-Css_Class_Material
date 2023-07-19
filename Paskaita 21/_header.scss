@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 70px;
+    }
+    div {
+        display: flex;
+            gap: 2rem;
+        a{
+            text-decoration: none;
+        }
+    }
+}

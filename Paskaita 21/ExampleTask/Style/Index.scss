@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(182, 182, 182);
+    .container {
+        width: 80%;
+        margin: auto;
+        img {
+            width: 100px;
+        }
+        
+        nav {
+            background-color: white;
+            box-shadow: 3px 3px 5px black;
+            padding: 2rem;
+            border-radius: 15px;
+            display: flex;
+            gap: 1rem;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 15px;
+    gap: 2rem;
+    grid-template-rows: 100px 200px;
+    div {
+        background-color: white;
+        box-shadow: 3px 3px 5px black;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width:768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: repeat (3, 200px);
+    }
+}

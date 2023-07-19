@@ -1,0 +1,26 @@
+@import "_vars.scss";
+@import "_header.scss";
+
+h1 {
+    color: $primary-color;
+}
+p {
+    color: $primary-color;
+}
+@mixin basic-element($amount: 15px) {
+    font-size: $amount + 10px;
+    border: $amount solid $primary-color;
+}
+.paragraph {
+    text-decoration: line-through;
+    font-style: italic;
+}
+.test {
+    @extend .paragraph;
+    color: blue;
+    @include basic-element;
+    background-color: lighten($primary-color, 10%);
+}
+.test2 {
+    @include basic-element(25px)
+}
