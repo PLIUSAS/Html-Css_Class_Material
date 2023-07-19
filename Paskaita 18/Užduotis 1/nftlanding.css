@@ -1,6 +1,9 @@
 :root {
     --purple: #ff00bf;
 }
+body {
+    padding: 3rem;
+}
 header {
     padding: 20px 150px;
 }
@@ -127,23 +130,163 @@ header {
 .Third-section-main {
     display: flex;
     gap: 2rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .Third-section-main img {
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
+    flex-wrap: wrap;
 }
 .Third-section-main-item {
+    flex-wrap: wrap;
     display: flex;
-    width: 450px;
-    height: 450px;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 350px;
+}
+.Third-section-main table {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 315px;
+    border-collapse: collapse;
+    background-color: rgba(128, 125, 125, 0.2);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.Third-section-main table th:last-child, td:last-child {
+    padding-right: 1.5rem;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.Third-section-main table th:last-child {
+    background-image: url(ntfs/eth.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 85px;
+    padding-bottom: 15px;
+}
+.Third-section-main table th:first-child {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.Third-section-main table th:first-child, td:first-child {
+    padding-left: 1.5rem;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.Third-section-main table th {
+    color: black;
+}
+.Third-section-main table .table-minimase {
+    font-size: 12px;
 }
 .Third-section-main table {
     color: gray;
 }
 .Third-section-main table span {
     color: orange;
+}
+.fourth-section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 477px;
+}
+.fourth-section-main p span {
+    color: #ff00bf;
+    font-size: 15px;
+}
+.fourth-section-main h1 {
+    font-size: 45px;
+}
+.fourth-section img {
+    padding-top: 50px;
+    align-items: right;
+    width: 250px;
+    height: 450px;
+}
+.fourth-section-main button {
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: white;
+    background-image: url(Nuotraukos/Group1.svg);
+}
+.five-section {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.five-section-icons {
+    padding-left: 0;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+.five-section-header p {
+    font-size: 20px;
+    color: gray;
+}
+.five-section-main {
+    display: flex;
+    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.five-section-main table{
+    color: gray;
+    padding-right: 15rem;
+}
+.five-section-main .table-tr {
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.five-section-main .table-tr th {
+    padding-bottom: 0.7rem;
+    text-align: left;
+}
+.five-section-main .table-tr td {
+    padding-left: 1rem;
+}
+.five-section-main .table-tr td:first-child {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+.five-section-main .table-tr .center {
+    align-items: left;
+    text-align: left;
+    padding-left: 0;
+}
+.five-section-main .table-tr .right {
+    padding-left: 2rem;
+}
+.five-section-main .table-tr td:last-child {
+    text-align: center;
+}
+footer {
+    padding: 1rem;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
