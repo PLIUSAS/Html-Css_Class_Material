@@ -14,7 +14,7 @@ header {
     margin: auto;
     align-items: center;
 }
-header .logo button {
+header .logo button, .sixth-part .logo button {
     font-size: 30px;
     padding: 12px 20px;
     border: 5px solid orangered;
@@ -43,6 +43,7 @@ header .logo button {
     color: black;
     text-decoration: none;
 }
+/* First.section */
 .first-section {
     height: 450px;
     display: flex;
@@ -68,16 +69,49 @@ header .logo button {
     padding: 0 1.5rem;
     border: 1px solid white;
 }
-.first-section img {
-    height: 400px;
+.first-section-photo {
+    padding-top: 2rem;
+    padding-left: 350px;
 }
+.first-section img {
+    position: sticky;
+    height: 350px;
+    border-radius: 20px;
+}
+.first-section .photo1 {
+    height: 220px;
+    position: relative;
+    top: 50px;
+    left: -200px;
+}
+.first-section .photo2 {
+    background: linear-gradient(166deg, rgb(247, 242, 242) 55%, rgb(205, 252, 252) 100%);
+    border-radius: 20px;
+    width: 550px;
+    height: 390px;
+    position: absolute;
+    right: -50px;
+    top: 150px;
+}
+.first-section-photo-ul {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    right: 340px;
+    top: 250px;
+}
+.first-section-photo-ul div{
+    align-items: center;
+    color: orangered;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 23px;
+}
+/* Secont-section */
 .secont-section {
     margin: auto;
     width: 1000px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
     border: 1px solid white;
     border-collapse: collapse;
     padding: 0rem 6rem;
@@ -115,8 +149,23 @@ header .logo button {
     width: 150px;
     height: 150px;
 }
+/* The-third-section */
 .the-third-section {
     padding: 4rem 6rem;
+}
+.the-third-section-main-ul div {
+    align-items: center;
+    color: orangered;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 23px;
+}
+.the-third-section-main-ul {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    left: 0.5rem;
+    top: 1300px;
 }
 .the-third-section-text {
     display: flex;
@@ -186,6 +235,7 @@ header .logo button {
     padding: 0 1.5rem;
     border: 1px solid white;
 }
+/* Fourth-part */
 .fourth-part {
     background: linear-gradient(166deg, rgb(247, 242, 242) 80%, rgb(184, 255, 255) 100%);
 }
@@ -194,13 +244,41 @@ header .logo button {
     text-align: center;
 }
 .fourth-part-main {
-    
+    background: fixed;
+    border-radius: 20px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .fourth-part-main-div {
+    background-color: white;
+    width: 270px;
+    height: 300px;
     border-radius: 20px;
 }
+.fourth-part-main-div img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 270px;
+    height: 140px;
+}
+.fourth-part-main-div .font-size {
+    font-size: large;
+}
+.fourth-part-main-div h1 {
+    font-size: x-large;
+}
+.fourth-part-main-div p {
+    font-size: small;
+}
+.fourth-part-main-div h1, .fourth-part-main-div p {
+    padding: 0.5rem 1rem; 
+    margin: 0;
+}
 .fourth-part-button {
-    padding: 2rem;
+    padding: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,8 +291,61 @@ header .logo button {
     padding: 0 1.5rem;
     border: 1px solid gray;
 }
+/* Five's part */
+.five-part {
+    background-image: url(https://i.pinimg.com/originals/48/ed/39/48ed39fb12b721fccffd0bbc335b2109.jpg);
+    text-align: center;
+    padding: 4rem;
+}
+.five-part h1 {
+    color: white;
+}
+.five-part p {
+    padding-top: 0;
+    padding: 2rem 0;
+    margin: auto;
+    width: 400px;
+}
+.five-part button {
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: auto;
+    height: 55px;
+    color: white;
+    background: orangered;
+    border-radius: 50px;
+    padding: 0 1.5rem;
+    border: 1px solid orangered;
+    
+}
+/* the sixth part */
+.sixth-part {
+    gap: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4em 4rem;
+}
+.sixth-part .logo {
+    padding-left: 0;
+    padding-right: 4rem;
+}
+.sixth-part table {
+    text-align: left;
+    display: flex;
+}
+.sixth-part table tr th{
+    color: rgb(16, 16, 80);
+    padding-bottom: 1rem;
+    text-align: left;
+}
+.sixth-part table tr td {
+    color: rgb(16, 16, 80);
+    text-align: left;
+    padding-right: 5rem;
+}
+/* Footer */
 footer {
-    padding: 0 5rem;
+    padding: 1rem 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -229,3 +360,13 @@ footer ul a {
     text-decoration: none;
     color: black;
 }
+.hr-padding {
+    color: gray;
+    border:none;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 1px 0px 0px gray;
+    margin: -50px auto 5px; 
+  }
